@@ -1,0 +1,136 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.logo{
+    width: 200px;
+    height: 70px;
+    margin: 20px;
+    display: flex;
+    font-family: sans-serif;
+}
+
+.links{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    padding-left: 400px;
+    justify-content: center;
+}
+
+.links ul{
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links ul , li{
+    width: 100%;
+    display: flex;
+    height: 50px;
+    font-family: sans-serif;
+    margin-bottom: auto;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.links ul , li , a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.searchbutton{
+    display: flex;
+    width: 200px;
+    height: 70px;
+}
+
+.button{
+    display: flex;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.secondsec{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.para1{
+    width: 700px;
+    height: 300px;
+    font-size: 70px;
+    padding-top: 60px;
+    padding-left: 40px;
+    font-family: "space Grotesk" , sans-serif;
+}
+
+.para2{
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-family: "space Grotesk" , sans-serif;
+    display: flex;
+}
+
+.announceimg{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    margin-left: 280px;
+    padding-top: 70px;
+}
+
+.bu2n{
+    display: flex;
+    margin: 40px;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 50px;justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.logosss{
+    width: 100%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logosss img{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+@media(max-width:720px) and (min-width:)
